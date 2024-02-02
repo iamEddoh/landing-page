@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    height: 100vh;
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    padding: 16px 200px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+    display: flex;
+}
+
+.hero {
+    font-family: 'Roboto', sans-serif;
+    padding: 32px 200px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex: 1;
+
+}
+
+.left {
+    max-width: 50%;
+    margin-right: 32px;
+}
+
+.right {
+    background-color: dimgray;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+    
+}
+
+button {
+    background-color: #3882F6 ;
+    color: #F9FAF8 ;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-top: 8px;
+    font-weight: 900;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+   font-size: 36px;
+   font-weight: 900;
+   color: #1F2937; 
+   padding: 32px;
+}
+
+.quote {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 32px 200px;
+    font-weight: 10;
+    font-size: 36px;
+    font-style: italic;
+
+    display: flex;
+}
+
+.action {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
